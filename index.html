@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=Inter&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,400;0,800;1,600&family=Nanum+Gothic&family=Roboto:ital,wght@0,400;1,300&family=Saira+Semi+Condensed:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--Header -->
+    <nav>
+      <div class="banner">
+        <ul>
+          <li id="todos">Todos</li>
+          <li id="mujeres">Mujer</li>
+          <li id="hombres">Hombre</li>
+          <li id="sinGenero">Sin genero</li>
+          <li id="noSeSabe">No se sabe</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Menu -->
+    <main>
+      <p class="cantidadPersonajes">Total de personajes: <span id="total-personajes"></span></p>
+      <div id="raiz"></div>
+      
+      <div class="pagination">
+        <button id="first-page">«</button>
+        <button id="prev-page">-</button>
+        <button id="next-page">+</button>
+        <button id="last-page">»</button>
+      </div>
+      <div class="container-paginador">
+        <p>Pagina actual: <span id="pagina-actual"></span></p>
+        <p>Total de páginas: <span id="total-paginas"></span></p>
+      </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+      <p>Lihuel Cardozo 2023 ®</p>
+    </footer>
+    <!-- Javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
